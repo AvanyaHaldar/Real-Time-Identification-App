@@ -1,0 +1,59 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 25px rgb(251, 255, 0);
+    font-size: 30px;
+    font-family: comic sans ms;
+    font-weight: bolder;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: orangered;
+    font-weight: bold;
+    box-shadow:5px 5px 5px rgb(17, 0, 255);
+    float: none;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .heading_div2
+  {
+    font-size: 20px ;
+    color: orchid;
+    font-weight: bolder;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px rgb(175, 1, 243);
+    font-size: 20px;
+  }
+  .result_para_tag span{
+    white-space: pre-line;
+  }
+
+  .copy_right_footer{
+    background-color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+    line-height:4;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  canvas{
+    border: 5px solid #fbff00;
+    margin-top: 150px;
+    border-radius: 20px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shadow{
+    from{ box-shadow: 1px 1px 30px orange; }
+    to{box-shadow: 1px 1px 30px red; }
+  }
+ 
